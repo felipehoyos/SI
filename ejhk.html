@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css3/styles.css"/>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<title>OVI SEGURIDAD INFORMATICA</title>
+		<script type="text/javascript">
+			window.onload = function(){
+				var btn_1 = document.getElementById("btn1");
+				btn_1.onclick = function(){
+					var radio_1 = document.formulario1.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_2 = document.getElementById("btn2");
+				btn_2.onclick = function(){
+					var radio_1 = document.formulario2.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_3 = document.getElementById("btn3");
+				btn_3.onclick = function(){
+					var radio_1 = document.formulario3.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_4 = document.getElementById("btn4");
+				btn_4.onclick = function(){
+					var radio_1 = document.formulario4.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_5 = document.getElementById("btn5");
+				btn_5.onclick = function(){
+					var radio_1 = document.formulario5.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_6 = document.getElementById("btn6");
+				btn_6.onclick = function(){
+					var radio_1 = document.formulario6.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+			}
+		</script>
+	</head>
+	<body style="overflow-x: hidden;">
+			<div class="col-md-lg">
+				<img src="header.png" class="img-fluid" alt="Responsive image">
+			</div>
+			<div class="col-md-12" style="position: absolute;top:0%;left: 35%;">
+				<img src="logo.png" class="img-fluid" style="width: 23%; height: 23%;">
+			</div>
+			<div class="col-md-12" style="position: absolute; top: 2%;left: 90%;">
+				<img src="tw.jpg" class="img-fluid" style="width: 5%; height: 5%;" onclick="location.href='https://twitter.com/UniversidadUNAD'">
+			</div>
+			<div class="container-fluid">
+			<div class="row">
+			<button class="btn btn-primary col-md-2" onclick="location.href='index.html'">INICIO</button>	
+			<button class="btn btn-primary col-md-3" onclick="location.href='si.html'">SEGURIDAD INFORMATICA</button>
+			<button class="btn btn-primary col-md-2" onclick="location.href='hk.html'">HACKING</button>
+			<button class="btn btn-primary col-md-3"onclick="location.href='pi.html'">PROTECCIÓN DE LA INFORMACIÓN</button>
+			<button class="btn btn-primary col-md-2" onclick="location.href='ej.html'">EJERCICIOS</button>
+			</div>
+			</div><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-lg">
+						<strong>EJERCICIOS</strong> <br></br>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<strong>HACKING</strong> <br></br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<form method="post" name="formulario1">
+						<p>¿que tipo de sistema operativo facilita la practica del hacking?</p>
+						<input type="radio" name="a" value="correcto">Linux
+						<input type="radio" name="a" value="incorrecto">Windows
+						<input type="radio" name="a" value="incorrecto">Mac OS
+						<button type="button" id="btn1">RESPONDER</button>
+						</form><br></br>
+						<form method="post" name="formulario2">
+						<p>¿Qué tipo de hacker revisar las vulnerabilidades de un sistema en un ambiente controlado para realizar mejoras a dicho sistema?</p>
+						<input type="radio" name="a" value="incorrecto">Black hat
+						<input type="radio" name="a" value="correcto">White hat
+						<input type="radio" name="a" value="incorrecto">Grey hat
+						<button type="button" id="btn2">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario3">
+						<p>¿Que motiva a hacker para realizar un ataque?</p>
+						<input type="radio" name="a" value="incorrecto">Robo música
+						<input type="radio" name="a" value="incorrecto">Comunicarse con alguien
+						<input type="radio" name="a" value="correcto">Robo de información
+						<button type="button" id="btn3">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario4">
+						<p>¿Cuál es el medio por el cual los hackers atacan de una forma remota?</p>
+						<input type="radio" name="a" value="incorrecto">Una USB
+						<input type="radio" name="a" value="incorrecto">Un mensaje de texto
+						<input type="radio" name="a" value="correcto">Internet
+						<button type="button" id="btn4">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario5">
+						<p>¿Cuál es la vulnerabilidad más grande que puede tener un computador?</p>
+						<input type="radio" name="a" value="incorrecto">Firewall inhabilitado
+						<input type="radio" name="a" value="incorrecto">Antivirus desactualizado
+						<input type="radio" name="a" value="correcto">Ausencia de antivirus
+						<button type="button" id="btn5">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario6">
+						<p>¿Cuál es el sistema operativo más vulnerable en el mercado?</p>
+						<input type="radio" name="a" value="incorrecto">Windows
+						<input type="radio" name="a" value="correcto">Mac Os
+						<input type="radio" name="a" value="incorrecto">Linux
+						<button type="button" id="btn6">RESPONDER</button>
+						</form>
+						<br></br>
+						<a class="btn btn-success" href="ej.html">MENU</a>
+					</div>
+				</div>
+			</div>
+			<br></br>
+		<div class="col-md-lg">
+				<img src="footer.png" class="img-fluid" alt="Responsive image">
+		</div>	
+		<script type="js/jquery.js"></script>
+		<script type="js/bootstrap.min.js"></script>
+	</body>
+</html>

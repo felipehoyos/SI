@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css3/styles.css"/>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<title>OVI SEGURIDAD INFORMATICA</title>
+		<script type="text/javascript">
+			window.onload = function(){
+				var btn_1 = document.getElementById("btn1");
+				btn_1.onclick = function(){
+					var radio_1 = document.formulario1.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_2 = document.getElementById("btn2");
+				btn_2.onclick = function(){
+					var radio_1 = document.formulario2.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_3 = document.getElementById("btn3");
+				btn_3.onclick = function(){
+					var radio_1 = document.formulario3.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_4 = document.getElementById("btn4");
+				btn_4.onclick = function(){
+					var radio_1 = document.formulario4.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_5 = document.getElementById("btn5");
+				btn_5.onclick = function(){
+					var radio_1 = document.formulario5.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+				var btn_6 = document.getElementById("btn6");
+				btn_6.onclick = function(){
+					var radio_1 = document.formulario6.a;
+					for (x = 0; x < radio_1.length; x++){
+						if(radio_1[x].checked){
+							alert(radio_1[x].value);
+						}
+					}
+				}
+			}
+		</script>
+	</head>
+	<body style="overflow-x: hidden;">
+			<div class="col-md-lg">
+				<img src="header.png" class="img-fluid" alt="Responsive image">
+			</div>
+			<div class="col-md-12" style="position: absolute;top:0%;left: 35%;">
+				<img src="logo.png" class="img-fluid" style="width: 23%; height: 23%;">
+			</div>
+			<div class="col-md-12" style="position: absolute; top: 2%;left: 90%;">
+				<img src="tw.jpg" class="img-fluid" style="width: 5%; height: 5%;" onclick="location.href='https://twitter.com/UniversidadUNAD'">
+			</div>
+			<div class="container-fluid">
+			<div class="row">
+			<button class="btn btn-primary col-md-2" onclick="location.href='index.html'">INICIO</button>	
+			<button class="btn btn-primary col-md-3" onclick="location.href='si.html'">SEGURIDAD INFORMATICA</button>
+			<button class="btn btn-primary col-md-2" onclick="location.href='hk.html'">HACKING</button>
+			<button class="btn btn-primary col-md-3"onclick="location.href='pi.html'">PROTECCIÓN DE LA INFORMACIÓN</button>
+			<button class="btn btn-primary col-md-2" onclick="location.href='ej.html'">EJERCICIOS</button>
+			</div>
+			</div><br>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-lg">
+						<strong>EJERCICIOS</strong> <br></br>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<strong>SEGURIDAD INFORMATICA</strong> <br></br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<form method="post" name="formulario1">
+						<p>¿Cual es el tipo de contrasela que debes utilizar?</p>
+						<input type="radio" name="a" value="incorrecto">Numerica
+						<input type="radio" name="a" value="incorrecto">Alfabetica
+						<input type="radio" name="a" value="correcto">Alfanumerica
+						<button type="button" id="btn1">RESPONDER</button>
+						</form><br></br>
+						<form method="post" name="formulario2">
+						<p>¿Con que frecuencia debes cambiar tu contraseña para que tus cuentas esten seguras?</p>
+						<input type="radio" name="a" value="incorrecto">Alnua
+						<input type="radio" name="a" value="correcto">Concurrente
+						<input type="radio" name="a" value="incorrecto">Semestral
+						<button type="button" id="btn2">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario3">
+						<p>¿Cual sistema de autenticacion brinda mayor seguridad?</p>
+						<input type="radio" name="a" value="incorrecto">Autenticacion
+						<input type="radio" name="a" value="correcto">Doble autenticacion
+						<button type="button" id="btn3">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario4">
+						<p>¿Cual es la frecuencia con la que se deben realizar copias de seguridad de una base de datos?</p>
+						<input type="radio" name="a" value="incorrecto">Mensual
+						<input type="radio" name="a" value="correcto">Diaria
+						<input type="radio" name="a" value="incorrecto">Semanal
+						<button type="button" id="btn4">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario5">
+						<p>¿Cual es la herramienta que detiene en primera instancia un ataque por internet?</p>
+						<input type="radio" name="a" value="correcto">Firewall 
+						<input type="radio" name="a" value="incorrecto">Antivirus 
+						<button type="button" id="btn5">RESPONDER</button>
+						</form>
+						<br></br>
+						<form method="post" name="formulario6">
+						<p>¿Que tipo de herramientas utilizarias para que tus datos no sean expuestos en caso de que sean robados?</p>
+						<input type="radio" name="a" value="correcto">Encritador de datos
+						<input type="radio" name="a" value="incorrecto">Antivirus 
+						<input type="radio" name="a" value="incorrecto">Firewall
+						<button type="button" id="btn6">RESPONDER</button>
+						</form>
+						<br></br>
+						<a class="btn btn-success" href="ej.html">MENU</a>
+					</div>
+				</div>
+			</div>
+			<br></br>
+		<div class="col-md-lg">
+				<img src="footer.png" class="img-fluid" alt="Responsive image">
+		</div>	
+		<script type="js/jquery.js"></script>
+		<script type="js/bootstrap.min.js"></script>
+	</body>
+</html>
